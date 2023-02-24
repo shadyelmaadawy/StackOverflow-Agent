@@ -30,3 +30,19 @@ final class BaseUITableView: UITableView {
     }
     
 }
+
+extension BaseUITableView {
+    
+    /// Setup delegates of tableview
+    /// - Parameter delegate: an instance of class confirming to TableViewDelegate protocol
+    func setDelegate(_ delegate: UITableViewDelegate) {
+        self.delegate = delegate
+    }
+    
+    /// setup data source of tableview
+    /// - Parameter dataSource: an instance of class confirming to TableViewDataSource protocol
+    func setDataSource(_ dataSource: UITableViewDataSource) {
+        self.dataSource = dataSource
+    }
+    
+}
