@@ -41,6 +41,8 @@ final class BaseUITextField: UITextField {
     }
     
     private func setupTextField(_ disableAutoResizingMask: Bool) {
+        
+        self.tintColor = .tintColor
         self.backgroundColor = .textFieldBackgroundColor
         
         if(disableAutoResizingMask) {
