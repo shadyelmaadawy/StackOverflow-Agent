@@ -9,5 +9,4 @@ import UIKit
 
 final class HomeViewController: BaseUIViewController {
     
-    
 }
