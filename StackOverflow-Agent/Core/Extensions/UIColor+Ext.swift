@@ -11,5 +11,6 @@ extension UIColor {
     
     static let mainBackgroundColor = UIColor(named: "Main Background Color")!
     static let secondaryBackgroundColor = UIColor(named: "Secondary Background Color")!
-    static let textFieldBackgroundColor = UIColor(named: "UITextField Background Color")!
+    static let textFieldBackgroundColor = UIColor(named: "Text Field Background Color")!
+    static let tableViewBackgroundColor = UIColor(named: "Table View Background Color")!
 }
