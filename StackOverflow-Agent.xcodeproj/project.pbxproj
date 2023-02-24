@@ -13,6 +13,7 @@
 		61FBF3AC29A8AE3D009607B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FBF3AA29A8AE3D009607B9 /* LaunchScreen.storyboard */; };
 		61FBF3BC29A8BB73009607B9 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBF3BB29A8BB73009607B9 /* BaseUIViewController.swift */; };
 		61FBF3BF29A8BC7A009607B9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBF3BE29A8BC7A009607B9 /* HomeViewController.swift */; };
+		61FBF3C229A8BD8A009607B9 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBF3C129A8BD8A009607B9 /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		61FBF3AD29A8AE3D009607B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61FBF3BB29A8BB73009607B9 /* BaseUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
 		61FBF3BE29A8BC7A009607B9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		61FBF3C129A8BD8A009607B9 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		61FBF3B429A8B01E009607B9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				61FBF3C029A8BD6E009607B9 /* Extensions */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -137,6 +140,14 @@
 				61FBF3BE29A8BC7A009607B9 /* HomeViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		61FBF3C029A8BD6E009607B9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				61FBF3C129A8BD8A009607B9 /* UIColor+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 			files = (
 				61FBF3BC29A8BB73009607B9 /* BaseUIViewController.swift in Sources */,
 				61FBF3A029A8AE3C009607B9 /* AppDelegate.swift in Sources */,
+				61FBF3C229A8BD8A009607B9 /* UIColor+Ext.swift in Sources */,
 				61FBF3A229A8AE3C009607B9 /* SceneDelegate.swift in Sources */,
 				61FBF3BF29A8BC7A009607B9 /* HomeViewController.swift in Sources */,
 			);

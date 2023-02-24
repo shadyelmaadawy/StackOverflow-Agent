@@ -20,27 +20,24 @@ class BaseUIViewController: UIViewController {
         case secondary
     }
     
-    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-    }
+    //MARK: - Initialization
     
     @available(*, unavailable)
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    //MARK: - Initialization
-    
-    convenience init(viewPriority: ViewPriority = .main) {
-        self.init(nibName: nil, bundle: nil)
+    init(viewPriority: ViewPriority = .main) {
+        super.init(nibName: nil, bundle: nil)
         self.setupViewController(viewPriority)
     }
     
     private func setupViewController(_ viewPriority: ViewPriority) {
         switch(viewPriority) {
             case .main:
-            break
+                self.view.backgroundColor = .mainBackgroundColor
             case .secondary:
+                self.view.backgroundColor = .secondaryBackgroundColor
             break
         }
     }
