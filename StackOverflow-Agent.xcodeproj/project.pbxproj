@@ -12,6 +12,7 @@
 		61FBF3A429A8AE3C009607B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBF3A329A8AE3C009607B9 /* ViewController.swift */; };
 		61FBF3A929A8AE3D009607B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61FBF3A829A8AE3D009607B9 /* Assets.xcassets */; };
 		61FBF3AC29A8AE3D009607B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61FBF3AA29A8AE3D009607B9 /* LaunchScreen.storyboard */; };
+		61FBF3BC29A8BB73009607B9 /* BaseUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBF3BB29A8BB73009607B9 /* BaseUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		61FBF3A829A8AE3D009607B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61FBF3AB29A8AE3D009607B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61FBF3AD29A8AE3D009607B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61FBF3BB29A8BB73009607B9 /* BaseUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +118,17 @@
 		61FBF3B929A8B151009607B9 /* Reusable Components */ = {
 			isa = PBXGroup;
 			children = (
+				61FBF3BA29A8BB6B009607B9 /* Base */,
 			);
 			path = "Reusable Components";
+			sourceTree = "<group>";
+		};
+		61FBF3BA29A8BB6B009607B9 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				61FBF3BB29A8BB73009607B9 /* BaseUIViewController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61FBF3A429A8AE3C009607B9 /* ViewController.swift in Sources */,
+				61FBF3BC29A8BB73009607B9 /* BaseUIViewController.swift in Sources */,
 				61FBF3A029A8AE3C009607B9 /* AppDelegate.swift in Sources */,
 				61FBF3A229A8AE3C009607B9 /* SceneDelegate.swift in Sources */,
 			);
